@@ -1,6 +1,11 @@
-function Child({ count }) {
+function Child({ count, handleClick }) {
   return (
-    <p>Child count is { count }</p>
+    <>
+      <button onClick={handleClick}>
+        Increment
+      </button>
+      <p>Child count is { count }</p>
+    </>
   )
 }
 
