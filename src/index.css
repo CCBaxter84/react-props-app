@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: aliceblue;
 }
 
 h1 {
@@ -45,9 +46,13 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  background-color: #535bf2;
+  color: white;
 }
 button:hover {
   border-color: #646cff;
+  background-color: azure;
+  color: black;
 }
 button:focus,
 button:focus-visible {
@@ -61,8 +66,5 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }
