@@ -10,13 +10,13 @@ function Parent() {
 
   return (
     <div className="card">
-      {/* <p>Count is {count}</p>
-      <button onClick={() => setCount((count) => count + 1)}>
+      <p>Count is {count}</p>
+      <button onClick={handleClick}>
         Increment
-      </button> */}
-      <p>Parent count is {count}</p>
+      </button>
+      {/* <p>Parent count is {count}</p>
       <Child  count={count}
-              handleClick={handleClick}/>
+              handleClick={handleClick}/> */}
     </div>
   )
 }
